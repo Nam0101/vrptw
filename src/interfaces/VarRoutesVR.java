@@ -1,5 +1,8 @@
+package interfaces;
+
 import entities.Point;
 import enums.PointType;
+import interfaces.VRManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

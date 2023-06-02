@@ -1,7 +1,11 @@
+package interfaces;
+
 import entities.Point;
 
 import java.util.ArrayList;
-import invariants.*;
+
+import interfaces.InvariantVR;
+
 public class VRManager {
     private final ArrayList<InvariantVR> invariants;
     private VarRoutesVR X;
@@ -23,7 +27,7 @@ public class VRManager {
 
     public void post(VarRoutesVR XR) {
         if (X != null) {
-            System.out.println("VRManager.post(X) error: X is not null");
+            System.out.println("interfaces.VRManager.post(X) error: X is not null");
             System.exit(-1);
         }
         this.X = XR;

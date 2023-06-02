@@ -1,7 +1,9 @@
+package interfaces;
+
 import entities.Point;
 
 public interface InvariantVR {
-    // InvariantVR interface for VRPTW problem.
+    // interfaces.InvariantVR interface for VRPTW problem.
     // defines several methods for performing moves and propagating impacts
     VRManager getVRManager();
 

@@ -1,7 +1,11 @@
+package interfaces;
+
 import entities.Point;
+import interfaces.IConstraintVR;
+import interfaces.VRManager;
 
 import java.util.ArrayList;
-// ConstraintSystemVR class for VRPTW problem. Each constraint has a violation.
+// interfaces.ConstraintSystemVR class for VRPTW problem. Each constraint has a violation.
 // The violation is calculated by some move methods.
 
 public class ConstraintSystemVR implements IConstraintVR {
